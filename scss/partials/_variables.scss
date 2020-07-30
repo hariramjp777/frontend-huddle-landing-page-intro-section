@@ -1,0 +1,15 @@
+$open-sans: "Open Sans", sans-serif; //400
+$poppins: "Poppins", sans-serif; //400,700 headings
+
+$colors: (
+  violet: hsl(257, 40%, 49%),
+  link: #007bff,
+  facebook: #3b5998,
+  twitter: #00acee,
+  instagram: #e1306c,
+);
+
+//function to get color
+@function color($color) {
+  @return map-get($colors, $color);
+}
