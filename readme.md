@@ -34,5 +34,4 @@
 [link]: https://hariramjp777.github.io "Live Site"
 [at1440px]: ./assets/designs/at1440px.png "At 1440px"
 [at375px]: ./assets/designs/at375px.png "At 375px"
-[at320px]: ./assets/designs/at320px.png "At 320px"
 [at240px]: ./assets/designs/at240px.png "At 240px"

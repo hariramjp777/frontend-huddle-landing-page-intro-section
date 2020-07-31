@@ -242,4 +242,16 @@ main .description button:active {
     padding: 0 !important;
   }
 }
+
+@media (max-width: 279px) {
+  .description {
+    text-align: left !important;
+  }
+}
+
+@media (max-width: 230px) {
+  .description button {
+    padding: 1.2rem 5rem !important;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
