@@ -1,0 +1,25 @@
+@media (min-width: 1200px) {
+  body {
+    background-image: url("/assets/images/bg-desktop.svg");
+  }
+  main {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    .description {
+      text-align: left;
+      margin-left: 2rem;
+      p:first-child {
+        font-size: 4rem;
+      }
+      p:nth-last-child(2) {
+        font-size: 1.7rem;
+      }
+    }
+  }
+  footer ul {
+    margin: 0;
+    margin-left: auto;
+    padding: 0 3rem;
+    width: 20rem;
+  }
+}

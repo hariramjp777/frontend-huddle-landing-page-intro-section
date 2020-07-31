@@ -139,4 +139,32 @@ main .description button:active {
   -webkit-transform: scale(0.95);
           transform: scale(0.95);
 }
+
+@media (min-width: 1200px) {
+  body {
+    background-image: url("/assets/images/bg-desktop.svg");
+  }
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+  }
+  main .description {
+    text-align: left;
+    margin-left: 2rem;
+  }
+  main .description p:first-child {
+    font-size: 4rem;
+  }
+  main .description p:nth-last-child(2) {
+    font-size: 1.7rem;
+  }
+  footer ul {
+    margin: 0;
+    margin-left: auto;
+    padding: 0 3rem;
+    width: 20rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
