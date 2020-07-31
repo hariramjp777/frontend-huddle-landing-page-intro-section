@@ -234,4 +234,12 @@ main .description button:active {
     margin-bottom: 2rem;
   }
 }
+
+@media (max-width: 270px) {
+  .attribution a {
+    display: block;
+    border: 0 !important;
+    padding: 0 !important;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
