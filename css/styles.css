@@ -28,4 +28,115 @@ body {
 body ul {
   list-style-type: none;
 }
+
+body {
+  background-color: #674baf;
+  background-image: url("/assets/images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: right 50% top;
+}
+
+header {
+  padding: 4rem;
+  padding-top: 3rem;
+}
+
+header img {
+  width: 14rem;
+}
+
+footer {
+  margin: 3rem 0;
+}
+
+footer ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 12rem;
+  margin: auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer ul li {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 0.1rem solid #e5e5e5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: background-color 0.4s ease-in;
+  transition: background-color 0.4s ease-in;
+  cursor: pointer;
+}
+
+footer ul li img {
+  margin: auto;
+  width: 1.3rem;
+}
+
+footer ul .facebook:hover {
+  background-color: #3b5998;
+}
+
+footer ul .twitter:hover {
+  background-color: #00acee;
+}
+
+footer ul .instagram:hover {
+  background-color: #e1306c;
+}
+
+main {
+  padding: 2rem 4rem 0 4rem;
+}
+
+main .illustration {
+  width: 100%;
+}
+
+main .illustration img {
+  width: 100%;
+}
+
+main .description {
+  margin: 6rem 0 0;
+  text-align: center;
+}
+
+main .description p:first-child {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 2.3rem;
+  color: #ffffff;
+}
+
+main .description p:nth-last-child(2) {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 2rem 0 3rem;
+  font-size: 1.54rem;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+main .description button {
+  padding: 1rem 6rem;
+  font-family: "Open Sans", sans-serif;
+  color: #674baf;
+  border: 0.1rem solid #e5e5e5;
+  border-radius: 2.5rem;
+  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+          box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+  outline: 0;
+  cursor: pointer;
+}
+
+main .description button:active {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
 /*# sourceMappingURL=styles.css.map */
