@@ -142,7 +142,7 @@ main .description button:active {
 
 @media (min-width: 1200px) {
   body {
-    background-image: url("/assets/images/bg-desktop.svg");
+    background-image: url("/assets/images/bgi-desktop.svg");
   }
   main {
     display: -ms-grid;
@@ -160,11 +160,31 @@ main .description button:active {
   main .description p:nth-last-child(2) {
     font-size: 1.7rem;
   }
+  footer {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+  }
   footer ul {
     margin: 0;
     margin-left: auto;
     padding: 0 3rem;
     width: 20rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-height: 808px) {
+  footer {
+    position: static;
+  }
+}
+
+@media (min-width: 1200px) and (min-height: 840px) and (max-width: 1720px) {
+  main {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(0, -50%);
+            transform: translate(0, -50%);
   }
 }
 /*# sourceMappingURL=styles.css.map */
