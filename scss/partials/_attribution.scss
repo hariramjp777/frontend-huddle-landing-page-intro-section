@@ -1,0 +1,21 @@
+.attribution {
+  position: absolute;
+  text-align: center;
+  bottom: 1rem;
+  font-size: 1.7rem;
+  width: 100%;
+  a {
+    color: color(twitter);
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    &:nth-child(1) {
+      border-right: 0.1rem solid;
+      padding-right: 1rem;
+    }
+    &:nth-child(2) {
+      padding-left: 1rem;
+    }
+  }
+}
