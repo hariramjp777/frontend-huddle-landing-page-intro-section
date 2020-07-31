@@ -1,4 +1,3 @@
-
 # Frontend Mentor Challenge
 
 ## Huddle Landing Page Introductory Section [:link:][link]
@@ -16,12 +15,6 @@
 - At 375px :iphone:
 
 ![At 375px][at375px]
-
----
-
-- At 320px :iphone:
-
-![At 320px][at320px]
 
 ---
 
