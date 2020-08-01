@@ -29,9 +29,16 @@ body ul {
   list-style-type: none;
 }
 
+body img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
 body {
   background-color: #674baf;
-  background-image: url("/assets/images/bg-mobile.svg");
+  background-image: url("../assets/images/bg-mobile.svg");
   background-repeat: no-repeat;
   background-position: right 50% top;
 }
@@ -168,7 +175,7 @@ main .description button:active {
 
 @media (min-width: 1200px) {
   body {
-    background-image: url("/assets/images/bgi-desktop.svg");
+    background-image: url("../assets/images/bgi-desktop.svg");
   }
   main {
     display: -ms-grid;

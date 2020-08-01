@@ -32,4 +32,8 @@ body {
   ul {
     list-style-type: none;
   }
+
+  img {
+    user-select: none;
+  }
 }
