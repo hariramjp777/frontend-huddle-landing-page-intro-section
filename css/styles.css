@@ -1,13 +1,10 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 *::after, *::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -24,16 +21,11 @@ body {
   font-family: sans-serif;
   font-family: "Open Sans", sans-serif;
 }
-
 body ul {
   list-style-type: none;
 }
-
 body img {
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 body {
@@ -47,7 +39,6 @@ header {
   padding: 4rem;
   padding-top: 3rem;
 }
-
 header img {
   width: 14rem;
 }
@@ -55,31 +46,21 @@ header img {
 footer {
   margin: 3rem 0;
 }
-
 footer ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 12rem;
   margin: auto;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
 footer ul li {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
   border: 0.1rem solid #e5e5e5;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-transition: background-color 0.4s ease-in;
   transition: background-color 0.4s ease-in;
   cursor: pointer;
 }
-
 footer ul li img {
   margin: auto;
   width: 1.3rem;
@@ -100,27 +81,22 @@ footer ul .instagram:hover {
 main {
   padding: 2rem 4rem 0 4rem;
 }
-
 main .illustration {
   width: 100%;
 }
-
 main .illustration img {
   width: 100%;
 }
-
 main .description {
   margin: 6rem 0 0;
   text-align: center;
 }
-
 main .description p:first-child {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 2.3rem;
   color: #ffffff;
 }
-
 main .description p:nth-last-child(2) {
   color: rgba(255, 255, 255, 0.5);
   margin: 2rem 0 3rem;
@@ -129,7 +105,6 @@ main .description p:nth-last-child(2) {
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
 }
-
 main .description button {
   padding: 1.2rem 6rem;
   font-family: "Open Sans", sans-serif;
@@ -137,15 +112,12 @@ main .description button {
   border: 0.1rem solid #e5e5e5;
   border-radius: 2.5rem;
   background-color: #ffffff;
-  -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
-          box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
   outline: 0;
   cursor: pointer;
 }
-
 main .description button:active {
-  -webkit-transform: scale(0.95);
-          transform: scale(0.95);
+  transform: scale(0.95);
 }
 
 .attribution {
@@ -155,21 +127,17 @@ main .description button:active {
   font-size: 1.7rem;
   width: 100%;
 }
-
 .attribution a {
   color: #00acee;
   text-decoration: none;
 }
-
 .attribution a:hover {
   text-decoration: underline;
 }
-
 .attribution a:nth-child(1) {
   border-right: 0.1rem solid;
   padding-right: 1rem;
 }
-
 .attribution a:nth-child(2) {
   padding-left: 1rem;
 }
@@ -178,11 +146,10 @@ main .description button:active {
   body {
     background-image: url("../assets/images/bgi-desktop.svg");
   }
+
   main {
-    display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 60% 40%;
-        grid-template-columns: 60% 40%;
+    grid-template-columns: 60% 40%;
   }
   main .description {
     text-align: left;
@@ -194,11 +161,13 @@ main .description button:active {
   main .description p:nth-last-child(2) {
     font-size: 1.7rem;
   }
+
   footer {
     position: absolute;
     bottom: 1rem;
     right: 1rem;
   }
+
   footer ul {
     margin: 0;
     margin-left: auto;
@@ -206,43 +175,36 @@ main .description button:active {
     width: 20rem;
   }
 }
-
 @media (min-width: 1200px) and (max-height: 808px) {
   footer {
     position: static;
   }
 }
-
 @media (min-width: 1200px) and (min-height: 840px) and (max-width: 1720px) {
   main {
     position: absolute;
     top: 50%;
-    -webkit-transform: translate(0, -50%);
-            transform: translate(0, -50%);
+    transform: translate(0, -50%);
   }
 }
-
 @media (max-height: 746px) {
   .attribution {
     position: static;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
   }
 }
-
 @media (max-width: 1199px) {
   .attribution {
     position: static;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
   }
 }
-
 @media (min-width: 1721px) and (max-height: 1260px) {
   .attribution {
     position: static;
-    margin-bottom: 2rem;
+    padding-bottom: 2rem;
   }
 }
-
 @media (max-width: 270px) {
   .attribution a {
     display: block;
@@ -250,16 +212,15 @@ main .description button:active {
     padding: 0 !important;
   }
 }
-
 @media (max-width: 279px) {
   .description {
     text-align: left !important;
   }
 }
-
 @media (max-width: 230px) {
   .description button {
     padding: 1.2rem 5rem !important;
   }
 }
+
 /*# sourceMappingURL=styles.css.map */
